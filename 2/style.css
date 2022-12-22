@@ -1,0 +1,115 @@
+@charset "UTF-8" ;
+@font-face{
+    font-family: "Android";
+    src:url(fontes/idroid.otf);
+    font-weight: normal;
+}
+body{
+    background-color: #E9E6C3;
+    margin:0px;
+}
+header{
+    font-family: cursive;
+    font-size:large;
+    font-weight: 800;
+    font-style: italic;
+    color:white;
+    height:150px;
+    background-image:linear-gradient(to bottom,rgb(204, 255, 213) 1%,#33b56e,#2b9c5e,#1b663c);
+    overflow:hidden;
+    text-align: center;
+    padding: 20px 5px 10px 5px;
+}
+main{
+    background-color: white;
+    margin:0px 20px;
+    padding:10px;
+}
+article{
+    text-align: center;
+}
+footer{
+    margin:0px;
+    background-color: #113e25;
+    color:white;
+}
+
+nav > ul{
+    margin: 0px 0px 0px 0px;
+    background-color:#1b663c;
+    padding-left: 20px;
+}
+.firstlinks{
+    text-decoration: none;
+    color:white;
+    padding-left: 10px;
+    
+}
+.firstlinks:hover{
+    background-image:linear-gradient(to bottom,rgb(98, 202, 88),rgb(42, 136, 67),rgb(26, 88, 54));
+    color:white;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+h2,h3{
+    background-image:linear-gradient(to right,rgba(20, 89, 17, 0.806),transparent);
+    text-align: left;
+    color: white;
+    font-family: "Android";
+}
+.external{
+    background-color: #b6f4a7;
+    padding:5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.external:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    padding:5px
+}
+footer > p{
+    margin:0px;
+    font-size:0.8em;
+    text-align: center;
+}
+aside{
+    background-color: #b6f4a7;
+    padding:10px;
+    border-radius: 10px;
+}
+aside > ul {
+    columns:2;
+    list-style-position: inside;
+    list-style-type: "\1F36C\00A0";
+
+}
+aside > h4{
+    margin:0px;
+    background-color: #113e25;
+    color: white;
+    margin:10px -10px 0px -10px;
+    padding:10px;
+    font-size: larger;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.external::after{
+    content:"\1F517";
+}
+
+.video{
+    background-color: #1b663c;
+    padding:20px;
+    margin:0px -10px 30px -10px;
+    padding-bottom:56.5%;
+    position: relative;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
