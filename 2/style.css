@@ -113,3 +113,6 @@ aside > h4{
     width: 90%;
     height: 90%;
 }
+img{
+    max-width: fit-content;
+}
