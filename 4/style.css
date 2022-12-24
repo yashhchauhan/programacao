@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap'); 
+@font-face {
+    font-family: "Main";
+    src: url(fontes/Magical\ Night.otf);
+    font-weight: bolder;
+}
+:root{
+    --font:'Merriweather', serif;
+}
+header{
+    background-color: black;
+    color:#fff;
+    font-family: 'Merriweather', serif;
+    font-weight:700;
+    text-align: center;
+    margin-top: 0px;
+}
+h1{
+    margin:0px;
+}
+body{
+    height: 100vh;
+    margin:0px;
+}
+main{
+    font-family: "main";
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin:0px;
+    padding:10px;
+}
+.irritante{
+    margin:0px;
+}
+main > article > p{
+    font-size:3vw;
+    padding-left: 19px;
+}
+.natureza{
+    padding: 10px;
+    font-size:3vw;
+    background-color: black;
+    color: #fff;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+}
+section{
+    display:inline-block;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: #fff;
+}
+.papel{
+    padding:10px;
+    font-size:3vw;
+    color:black;
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;}
+footer{
+    background-color: black;
+    text-align: center;
+    font-size: 1em;
+    color:#fff
+}
