@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iano">Ano de nascimento:</label>
+            <input type="number" name="ano" id="iano" min="1924" max="2022" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="iidade">Idade:</label>
+            <output id="iidade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <header></header>
+    <article>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quae magnam numquam? Praesentium est autem amet magnam magni fugiat nemo, rem eveniet vel, at, rerum numquam consectetur fugit. Reprehenderit, placeat.</li>
+            <li>Non earum praesentium voluptates in inventore corporis sapiente quasi a commodi quos, ipsum assumenda architecto veniam iusto ut labore. Ipsum optio voluptatem deserunt laudantium voluptatibus id praesentium dignissimos nisi pariatur?</li>
+            <li>Perferendis ea distinctio corrupti veniam, consequuntur, sint sed similique temporibus in nam iusto fugiat delectus qui nostrum illum. Esse tempora dolor placeat ipsam reprehenderit necessitatibus similique at ducimus harum commodi?</li>
+            <li>Eaque quas vel, temporibus et voluptas obcaecati repellendus sapiente. Soluta, quibusdam, maxime quae laudantium architecto rerum commodi dolor ullam odio minima unde! Quaerat quas nam facilis ea tempore neque rerum.</li>
+            <li>Qui saepe ipsam nesciunt ullam deleniti! Expedita amet reiciendis blanditiis. Recusandae error similique in unde assumenda magnam, alias nesciunt ex temporibus itaque sapiente totam beatae sequi impedit animi laboriosam rem?</li>
+        </ul>
+    </article>
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
